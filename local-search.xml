@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>麦轮解算</title>
+    <link href="/2022/06/06/%E9%BA%A6%E8%BD%AE%E8%A7%A3%E7%AE%97/"/>
+    <url>/2022/06/06/%E9%BA%A6%E8%BD%AE%E8%A7%A3%E7%AE%97/</url>
+    
+    <content type="html"><![CDATA[<h1 id="麦轮解算"><a href="#麦轮解算" class="headerlink" title="麦轮解算"></a>麦轮解算</h1><h2 id="单个麦轮受力分析"><a href="#单个麦轮受力分析" class="headerlink" title="单个麦轮受力分析"></a>单个麦轮受力分析</h2><blockquote><p>如下图是麦轮模型——仰视图</p></blockquote><img src="/2022/06/06/%E9%BA%A6%E8%BD%AE%E8%A7%A3%E7%AE%97/1.png" class="" title="仰视图"><p>从上图的（a）中可知，麦轮外围的辊子是与地面<strong>点接触</strong>的，当麦轮绕轮毂轴转动时，辊子会与地面产生摩擦力Fd，其作用力方向为轮毂坐标系y轴正方向（至关重要）。 </p><p>辊子与地面接触可理想化视为点接触，该接触点在“碰到”地面瞬间会受到与其运动方向相反的作用力（和普通轮胎分析相似），接触点的“运动方向”为正向后，所以摩擦力方向为正向前</p><h3 id="摩擦力分析"><a href="#摩擦力分析" class="headerlink" title="摩擦力分析"></a>摩擦力分析</h3><p>将摩擦力<strong>Fd</strong>沿着垂直和平行于棍子轴线方向进行力分解，由于棍子是被动轮，因此会受到垂直于轮毂轴线的分力<strong>Fv</strong>​作用而发生被动转动，也说明分力<strong>Fv</strong>​是滚动摩擦力，对棍子的磨损较大。而平行于轮毂轴线的分力<strong>Fp​</strong>也会迫使棍子运动，只不过是主动运动（棍子被轴线两侧轮毂机械限位），所以分力<strong>Fp​</strong>是静摩擦。</p><p>总结下来，地面作用于棍子的摩擦力分解为滚动摩擦力和静摩擦力，滚动摩擦力促使辊子转动，属于无效运动：静摩擦力促使辊子相对地面运动（类似于普通橡胶轮胎运动情况），而银子被轮教“卡住”因而带动整个麦轮沿着辊子轴线运动。</p><blockquote><ul><li>滑动摩擦： 一个物体在另一个物体.上运动时，物体上一点总是不离开接触面。 </li><li>滚动摩擦： 一个物体在另一个物体上运动时，物体上一点不总是在接触面上。 </li><li>静摩擦：   两个相互接触的物体,当其接触表面之间有相对滑动的趋势,但尚保持相对静止时,彼此作用着阻碍相对滑动的阻力</li></ul></blockquote><h2 id="正运动学"><a href="#正运动学" class="headerlink" title="正运动学"></a>正运动学</h2><img src="/2022/06/06/%E9%BA%A6%E8%BD%AE%E8%A7%A3%E7%AE%97/2.png" class="" title="正运动学"><p>如上图所示，这里做了简化，假设车身机械中心到麦轮机械中心的距离为a+b，麦轮在连线的垂线方向的线速度为 ω⋅r（即蓝线方向与车身与麦轮连线垂直），那么我们就有<br>wb.(a+b) &#x3D; w.r</p><img src="/2022/06/06/%E9%BA%A6%E8%BD%AE%E8%A7%A3%E7%AE%97/4.png" class="" title="X,Y轴速度"><img src="/2022/06/06/%E9%BA%A6%E8%BD%AE%E8%A7%A3%E7%AE%97/3.png" class="" title="整车的机械角速度">]]></content>
+    
+    
+    <categories>
+      
+      <category>算法</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>学习</tag>
+      
+      <tag>思考</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Love</title>
     <link href="/2022/06/01/Love/"/>
     <url>/2022/06/01/Love/</url>
